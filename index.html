@@ -8,6 +8,8 @@
     <!--Bootstrap Files-->
     <link rel="stylesheet" href="css/bootstrap.css">
     <script src="js/bootstrap.js"></script>
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <div class="container">
@@ -15,7 +17,7 @@
         <div class="row">
             <!--Display Image-->
             <div class="col-md-4 col-sm-4">
-                <img srcset="https://pbs.twimg.com/profile_images/829218386097872896/VKOWYgbJ_400x400.jpg" class="img-thumbnail rounded-circle" style="height: 100px;" alt="Nimit Profile Pic">
+                <img srcset="https://pbs.twimg.com/profile_images/829218386097872896/VKOWYgbJ_400x400.jpg" class="img-thumbnail rounded-circle img-fluid" style="height: 100px;" alt="Nimit Profile Pic">
             </div>
             <!--Profile Info-->
             <div class="col-md-8 col-sm-8 text-right">
@@ -26,29 +28,29 @@
     </header>
     <section class="main-project-img">
         <hr>
-        <img srcset="https://c1.staticflickr.com/4/3824/11123530043_632af83dd8_b.jpg" alt="banner-img" class="text-center" style="width: 100%;">
+        <img srcset="https://c1.staticflickr.com/4/3824/11123530043_632af83dd8_b.jpg" alt="banner-img" class="img-full-width">
     </section>
     <section class="featured-projects">
-        <h4 style="margin-top: 50px;">Featured Work</h4>
+        <h4 class="margin-top-50">Featured Work</h4>
         <hr>
-        <div class="row" style="display: flex;">
+        <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-12">
-                <img srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/WhatsApp_chatting.jpg/320px-WhatsApp_chatting.jpg" alt="Chatting App" width="100%">
+                <img srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/WhatsApp_chatting.jpg/320px-WhatsApp_chatting.jpg" alt="Chatting App" class="img-fluid">
                 <h5 class="text-center">Chatting App</h5>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12">
-                <img srcset="http://i.vimeocdn.com/video/347961772_1280x720.jpg" alt="Chatting App" width="100%">
-                <h5 class="text-center" style="bottom: 0">Movie Trailer</h5>
+                <img srcset="http://i.vimeocdn.com/video/347961772_1280x720.jpg" alt="Chatting App" class="img-fluid">
+                <h5 class="text-center">Movie Trailer</h5>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12">
-                <img srcset="https://upload.wikimedia.org/wikipedia/commons/1/18/University_of_Michigan_Consumer_Sentiment_Index.png" alt="Sentiment Analysis" width="100%">
+                <img srcset="https://upload.wikimedia.org/wikipedia/commons/1/18/University_of_Michigan_Consumer_Sentiment_Index.png" alt="Sentiment Analysis" class="img-fluid">
                 <h5 class="text-center">Twitter Tweets Sentiment Analysis</h5>
             </div>
         </div>
         <hr>
     </section>
-    <footer>
-        <span class="small float-right">This portfolio uses <a href="https://v4-alpha.getbootstrap.com/">Bootstrap 4 alpha</a> version and is under construction :)</span>
+    <footer class="small float-right">
+        This portfolio uses <a href="https://v4-alpha.getbootstrap.com/">Bootstrap 4 alpha</a> version and is under construction :)
     </footer>
 </div>
 </body>
